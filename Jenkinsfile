@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile the C++ code
-                sh g++ task5.cpp -o output
+                sh 'g++ task5.cpp -o output'
             }
         }
 
